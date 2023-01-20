@@ -8,7 +8,7 @@ body {
     padding:10px;
     margin:0px;
     width:100%;
-    background-color:blueviolet;
+    background-color:aqua;
     text-align:center;
     z-index:10;
     font-family: 'SingleDayRegular';
@@ -65,7 +65,7 @@ body {
      z-index:10;
     position: fixed;
     text-align: center;
-    Background-color:blueviolet;
+    Background-color:aqua;
    border:solid 1px;
      }
     
