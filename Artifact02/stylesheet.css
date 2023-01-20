@@ -30,7 +30,7 @@ body {
     margin-bottom:5%;
     }
     
-    .row{
+    .row {
     position:relative;
     margin-left:10%;
     margin-right:10%;
@@ -58,7 +58,14 @@ body {
     
      
     
-    #footer {position: fixed;
+    #footer {
+     top:0px;
+     left:0px;
+     padding:10px;
+     margin:0px;
+     width:100%;
+     z-index:10;
+    position: fixed;
     text-align: center;
     color:blueviolet;
     border:solid 1px;
