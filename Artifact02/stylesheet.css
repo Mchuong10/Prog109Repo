@@ -14,7 +14,7 @@ body {
     font-family: 'SingleDayRegular';
     font-weight: normal;
     font-style: normal;
-    font-size:400%;
+    font-size:normal;
     }
     h1{font-family: SingleDayRegular;font-size: 400%;}
     
@@ -39,7 +39,7 @@ body {
     .white{
     border: 1px solid black;
     width: 10%;
-    height: 60px;
+    height: 10%;
     background-color:white;
     float:left;
     }
@@ -47,7 +47,7 @@ body {
     .black{
     border: 1px solid black;
     width: 10%;
-    height: 60px;
+    height: 10%;
     background-color:#787878;
     float:left;
     }
