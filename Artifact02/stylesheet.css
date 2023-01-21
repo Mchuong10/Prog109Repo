@@ -8,7 +8,7 @@ body {
     padding:10px;
     margin:0px;
     width:100%;
-    background-color:aqua;
+    background-color:darkcyan;
     text-align:center;
     z-index:10;
     font-family: 'SingleDayRegular';
@@ -18,7 +18,7 @@ body {
     }
     h1{font-family: SingleDayRegular;font-size: 400%;}
    
-    img {align:center;
+    img {
     margin-left: 5px;
     margin-top:10px;
     }
@@ -65,7 +65,7 @@ body {
      z-index:10;
     position: fixed;
     text-align: center;
-    Background-color:aqua;
+    Background-color:darkcyan;
    border:solid 1px;
      }
     
