@@ -8,11 +8,18 @@ h1 {
 	font-family:'SpotCookieRegular';
 	font-size:400%;}
 
+#feature {
+    background-color: Orange;
+    background-image: url("Naruto-Logo-1-770x481.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+	
 #content {
 	overflow:auto;
 	height:100%;}
 
-#nav, #feature, #footer {
+#nav, #footer {
 	background-color:yellow;
 	padding:10px;
 	margin:10px;}
@@ -32,7 +39,11 @@ h1 {
 li {
 	display:inline;
 	padding:5px;}
-
+#feature, .article {
+	height:10em;
+	margin-bottom:1em;
+	background-color:aqua;}
+	
 p {
    font-family: 'SpotCookieRegular';
    font-weight: normal;
