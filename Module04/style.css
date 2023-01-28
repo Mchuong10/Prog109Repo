@@ -3,12 +3,12 @@
       text-align: center;}
 
 h1 { 
-        font-family: 'SpotCookieRegular';
-        font-size-600%;
-        font-weight: normal;
-	font-style: normal;
-	padding-top:100px;
-	padding-bottom:100px;
+         font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
+         font-size-600%;
+	 padding-top:10px;
+	 padding-bottom:10px;
 }
 body {
         background-image: url("cherry blossom.jpg");
@@ -24,6 +24,9 @@ body {
 	margin: 1%;}
 
 .column1, .column2, .column3 {
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
 	width: 31.3%;
 	float: left;
 	margin: 1%;}
@@ -39,13 +42,16 @@ li {
 	padding: 0.5em 0;}
 
 #feature {
-    height: 10em;
-    margin-bottom: 1em;
-    background-color: #afeeee;
-    background-image: url("s-l500.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
+         height: 10em;
+         margin-bottom: 1em;
+         background-color: #afeeee;
+         background-image: url("s-l500.jpg");
+         background-size: contain;
+         background-repeat: no-repeat;
+         background-position: 100% 50%;
 }
 
 #nav {
