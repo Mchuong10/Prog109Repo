@@ -28,13 +28,12 @@ li {
 	padding: 0.5em 0;}
 
 #feature {
-	height: 10em;
-	margin-bottom: 1em;
-        background-color: #afeeee;
-        background-image: url("png-transparent-pink-tulip-flower-art-watercolor-painting-flowers-in-watercolor-tulip-watercolour-flowers-tulip-watercolor-plant-stem-flower-wash-thumbnail.png");
-	background-size: 30%;
-	background: no-repeat;
-	background-position: 50% 50%;}
+    background-color: #afeeee;
+    background-image: url("s-l500.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
 
 .article {
 	height: 10em;
