@@ -1,3 +1,6 @@
+h1 {
+	font-family:'SpotCookieRegular';
+	font-size:400%;}
 body {
 	width:960px;
 	margin:0 auto;}
@@ -22,6 +25,6 @@ li {
 	padding:5px;}
 
 p {
-   font-family: 'CursiveSerifBook';
+   font-family: 'SpotCookieRegular';
    font-weight: normal;
    font-style: italic;}
