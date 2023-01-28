@@ -11,11 +11,14 @@ h1 {
 	 padding-bottom:10px;
 }
 body {
-        background-image: url("cherry blossom.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 0 auto;}
+         font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
+         background-image: url("cherry blossom.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         margin: 0 auto;}
 
 #content {
 	overflow: auto;}
@@ -24,9 +27,6 @@ body {
 	margin: 1%;}
 
 .column1, .column2, .column3 {
-	 font-family: 'SingleDayRegular';
-         font-weight: normal;
-         font-style: normal;
 	width: 31.3%;
 	float: left;
 	margin: 1%;}
@@ -42,9 +42,6 @@ li {
 	padding: 0.5em 0;}
 
 #feature {
-	 font-family: 'SingleDayRegular';
-         font-weight: normal;
-         font-style: normal;
          height: 10em;
          margin-bottom: 1em;
          background-color: #afeeee;
