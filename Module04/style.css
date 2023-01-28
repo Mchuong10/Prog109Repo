@@ -10,6 +10,7 @@ h1 {
          font-style: normal;
          font-size: 200%;
 }
+
 body {
          font-family: 'SingleDayRegular';
          font-weight: normal;
@@ -80,12 +81,14 @@ li {
          font-weight: normal;
          font-style: normal;
 	background-color:#dda0dd;}
+
 .column3 {
 	 font-family: 'SingleDayRegular';
 	 font-size:200%;
          font-weight: normal;
          font-style: normal;
 	 background-color:#ffc0cb;}
+
 #footer {
 	 font-family: 'SingleDayRegular';
 	 font-size:200%;
