@@ -34,7 +34,7 @@ li {
        background-color:#98fb98;}
 #feature {
 	background-color: #afeeee;
-        background-image:url 's-l500.jpg';
+        background-image:url ("s-l500.jpg");
 	background-size: contain;
 	background: no-repeat;
 	background-position: 100% 50%;}
