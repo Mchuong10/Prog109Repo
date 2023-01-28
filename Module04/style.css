@@ -1,6 +1,9 @@
 
-body {
-    background-image:url("pexels-mudassir-ali-2680270.jpg");}
+body { 
+     width: 90%;
+     margin:0 auto;
+    background-image:url("pexels-mudassir-ali-2680270.jpg");
+     }
 h1 {
 	font-family:'SpotCookieRegular';
 	font-size:400%;}
