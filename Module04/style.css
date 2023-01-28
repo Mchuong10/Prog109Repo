@@ -30,6 +30,15 @@ li {
 	background-color:#dda0dd;}
 .column3 {
 	background-color:#ffc0cb;}
-
+#footer {
+       background-color:#98fb98;
+}
+#feature {
+	background-color: #afeeee;
+        background-image: s-l500.jpg;
+	background-size: contain;
+	background: no-repeat;
+	background-position: 100% 50%;}
+	
 
 	
