@@ -2,21 +2,22 @@
 body { 
      width: 90%;
      margin:0 auto;
-    background-image:url("wp7237514.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;}
+    background-image:url('wp7237514.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;}
+
 h1 {
 	font-family:'SpotCookieRegular';
 	font-size:400%;}
 
 #feature {
-    background-color: Orange;
-    background-image: url("Naruto-Logo-1-770x481.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 100% 50%;}
+    background-color:Orange;
+    background-image:url('Naruto-Logo-1-770x481.jpg');
+    background-size:Contain;
+    background-repeat:no-repeat;
+    background-position:100% 50%;}
 	
 #content {
 	overflow:auto;
