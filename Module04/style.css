@@ -1,9 +1,12 @@
+
+body {
+    background-image:url("pexels-mudassir-ali-2680270.jpg");
+    
+	width:960px;
+	margin:0 auto;}
 h1 {
 	font-family:'SpotCookieRegular';
 	font-size:400%;}
-body {
-	width:960px;
-	margin:0 auto;}
 
 #content {
 	overflow:auto;
