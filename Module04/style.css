@@ -23,9 +23,12 @@ h1 {
 	float:left;
 	margin:1%;}
 
-
-	.column3 {
-	margin-right: 0%;}
+.column1{
+	margin-left:0%;
+	background-color:red;}
+.column3 {
+	margin-right: 0%
+	background-color:lavender;}
 li {
 	display:inline;
 	padding:5px;}
