@@ -19,10 +19,13 @@ h1 {
 
 .column1, .column2, .column3 {
 	background-color:orange;
-	width:300px;
+	width:31.3%;
 	float:left;
-	margin:10px;}
+	margin:1%;}
 
+
+	.column3 {
+	margin-right: 0%;}
 li {
 	display:inline;
 	padding:5px;}
