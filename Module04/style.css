@@ -39,14 +39,6 @@ li {
 .article {
 	height: 10em;
 	margin-bottom: 1em;}
-	
-
-#feature {
-	background-color: #afeeee;
-        background-image:url ("s-l500.jpg");
-	background-size: contain;
-	background: no-repeat;
-	background-position: right center;}
 
 .column1 {
 	background-color:#e6e6fa;}
