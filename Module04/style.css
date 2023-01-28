@@ -7,8 +7,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
-    width: 90%;
     margin: 0 auto;}
 
 #content {
@@ -36,7 +34,7 @@ li {
     height: 10em;
     margin-bottom: 1em;
     background-color: #afeeee;
-    background-image: url("../s-l500.jpg");
+    background-image: url("s-l500.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100% 50%;
