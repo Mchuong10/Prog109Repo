@@ -6,9 +6,7 @@ h1 {
          font-family: 'SingleDayRegular';
          font-weight: normal;
          font-style: normal;
-         font-size-600%;
-	 padding-top:10px;
-	 padding-bottom:10px;
+         font-size: 600%;
 }
 body {
          font-family: 'SingleDayRegular';
@@ -42,6 +40,9 @@ li {
 	padding: 0.5em 0;}
 
 #feature {
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
          height: 10em;
          margin-bottom: 1em;
          background-color: #afeeee;
@@ -52,17 +53,30 @@ li {
 }
 
 #nav {
-       background-color:#98fb98;}
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
+         background-color:#98fb98;}
 	
 .article {
 	height: 10em;
 	margin-bottom: 1em;}
 
 .column1 {
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
 	background-color:#e6e6fa;}
+
 .column2 {
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
 	background-color:#dda0dd;}
 .column3 {
+	 font-family: 'SingleDayRegular';
+         font-weight: normal;
+         font-style: normal;
 	background-color:#ffc0cb;}
 #footer {
        background-color:#98fb98;}
