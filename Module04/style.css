@@ -16,12 +16,10 @@ body {
 	margin-right:0%;}
 li {
 	display:inline;
-	padding:0.5 em;}
+	padding: 0.5em;}
 #nav, #footer {
-	background-color: orange;
 	padding:0.5 0;}
 #feature, .article {
 	height:10em;
-	margin-bottom:1 em;
-	background-color: yellow;}
+	margin-bottom: 1em;}
 	
