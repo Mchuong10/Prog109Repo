@@ -3,8 +3,13 @@
       text-align: center;}
 
 body {
-	width: 90%;
-	margin: 0 auto;}
+    background-image: url("cherry blossom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;}
 
 #content {
 	overflow: auto;}
@@ -34,7 +39,7 @@ li {
     background-image: url("../s-l500.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 100% 50%;
+    background-position: 50% 50%;
 }
 
 .article {
