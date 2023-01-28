@@ -1,53 +1,23 @@
-
-body { 
-     width: 90%;
-     margin:0 auto;
-    background-image:url('wp7237514.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    height:100%;}
-
-h1 {
-	font-family:'SpotCookieRegular';
-	font-size:400%;}
-
-#feature {
-    background-color:Orange;
-    background-image:url('Naruto-Logo-1-770x481.jpg');
-    background-size:Contain;
-    background-repeat:no-repeat;
-    background-position:100% 50%;}
-	
-#content {
-	overflow:auto;
-	height:100%;}
-
-#nav, #footer {
-	background-color:yellow;
-	padding:10px;
-	margin:10px;}
-
+body {
+	width:90%;
+	margin:0 auto;}
+#content {overflow:auto;}
+#nav, #feature, #footer {
+	margin:1%;}
 .column1, .column2, .column3 {
-	font-family:'SpotCookieRegular';
-	background-color:orange;
 	width:31.3%;
 	float:left;
 	margin:1%;}
-
-.column1{
-	margin-left:0%;
-	background-color:red;}
-
 .column3 {
-	margin-right: 0%
-	background-color:lavender;}
+	margin-right:0%;}
 li {
-	font-family:'SpotCookieRegular';
 	display:inline;
-	padding:5px;}
-
-p {
-   font-family: 'SpotCookieRegular';
-   font-weight: normal;
-   font-style: italic;}
+	padding:0.5 em;}
+#nav, #footer {
+	background-color: orange;
+	padding:0.5 0;}
+#feature, .article {
+	height:10em;
+	margin-bottom:1 em;
+	background-color: yellow;}
+	
