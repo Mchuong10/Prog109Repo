@@ -34,7 +34,7 @@ li {
         background.image: url ("s-l500.jpg");
 	background.size: contain;
 	background: no-repeat;
-	background.position: right;}
+	background.position: right center;}
 
 .article {
 	height: 10em;
