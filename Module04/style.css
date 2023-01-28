@@ -29,6 +29,7 @@ h1 {
 	margin:10px;}
 
 .column1, .column2, .column3 {
+	font-family:'SpotCookieRegular';
 	background-color:orange;
 	width:31.3%;
 	float:left;
@@ -37,15 +38,15 @@ h1 {
 .column1{
 	margin-left:0%;
 	background-color:red;}
+
 .column3 {
 	margin-right: 0%
 	background-color:lavender;}
 li {
+	font-family:'SpotCookieRegular';
 	display:inline;
 	padding:5px;}
 
-
-	
 p {
    font-family: 'SpotCookieRegular';
    font-weight: normal;
