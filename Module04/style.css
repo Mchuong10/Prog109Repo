@@ -6,8 +6,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
-     }
+    height: 100%;}
 h1 {
 	font-family:'SpotCookieRegular';
 	font-size:400%;}
@@ -43,10 +42,8 @@ h1 {
 li {
 	display:inline;
 	padding:5px;}
-#feature, .article {
-	height:10em;
-	margin-bottom:1em;
-	background-color:aqua;}
+
+
 	
 p {
    font-family: 'SpotCookieRegular';
