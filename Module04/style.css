@@ -39,7 +39,7 @@ li {
     background-image: url("../s-l500.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 100% 50%;
 }
 
 .article {
