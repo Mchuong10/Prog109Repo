@@ -25,16 +25,16 @@ li {
 	padding: 0.5em;}
 
 #nav, #footer {
-	padding: 0.5;}
+	padding: 0.5em 0;}
 
 #feature {
 	height: 10em;
-	margin-bottom: 1em;
-        background-color: #afeeee;
-        background-image:url ("s-l500.jpg");
-	background-size: contain;
+	margin.bottom: 1em;
+        background.color: #afeeee;
+        background.image:url ("s-l500.jpg");
+	background.size: contain;
 	background: no-repeat;
-	background-position: right center;}
+	background.position: right center;}
 
 .article {
 	height: 10em;
