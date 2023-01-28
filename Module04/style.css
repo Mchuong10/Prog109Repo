@@ -23,3 +23,15 @@ li {
 	height: 10em;
 	margin-bottom: 1em;}
 	
+/* My Code */
+
+.column1 {
+	background-color: lightsalmon;}
+.column2 {
+	background-color:lightcoral;}
+.column3 {
+	background-color:orange;}
+#feature, .article {
+	background-color:yellow;}
+
+	
