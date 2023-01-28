@@ -8,7 +8,7 @@ h1 {
          font-family: 'SingleDayRegular';
          font-weight: normal;
          font-style: normal;
-         font-size: 400%;
+         font-size: 200%;
 }
 body {
          font-family: 'SingleDayRegular';
@@ -46,7 +46,7 @@ li {
 	 font-family: 'SingleDayRegular';
          font-weight: normal;
          font-style: normal;
-	 font-size:100%;
+	 font-size:200%;
          height: 10em;
          margin-bottom: 1em;
          background-color: #afeeee;
@@ -58,7 +58,7 @@ li {
 
 #nav {
 	 font-family: 'SingleDayRegular';
-	 font-size:100%;
+	 font-size:200%;
          font-weight: normal;
          font-style: normal;
          background-color:#98fb98;}
@@ -69,26 +69,26 @@ li {
 
 .column1 {
 	 font-family: 'SingleDayRegular';
-	 font-size:100%;
+	 font-size:200%;
          font-weight: normal;
          font-style: normal;
 	background-color:#e6e6fa;}
 
 .column2 {
 	 font-family: 'SingleDayRegular';
-	 font-size:100%;
+	 font-size:200%;
          font-weight: normal;
          font-style: normal;
 	background-color:#dda0dd;}
 .column3 {
 	 font-family: 'SingleDayRegular';
-	 font-size:100%;
+	 font-size:200%;
          font-weight: normal;
          font-style: normal;
 	 background-color:#ffc0cb;}
 #footer {
 	 font-family: 'SingleDayRegular';
-	 font-size:100%;
+	 font-size:200%;
          font-weight: normal;
          font-style: normal;
          background-color:#98fb98;}
