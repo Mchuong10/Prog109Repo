@@ -31,10 +31,10 @@ li {
 	height: 10em;
 	margin-bottom: 1em;
         background-color: #afeeee;
-        background-image:("s-l500.jpg");
+        background-image: url("s-l500.jpg");
 	background-size: contain;
 	background: no-repeat;
-	background-position: right center;}
+	background-position: 50% 50%
 
 .article {
 	height: 10em;
