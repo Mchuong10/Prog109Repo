@@ -29,12 +29,12 @@ li {
 
 #feature {
 	height: 10em;
-	margin.bottom: 1em;
-        background.color: #afeeee;
-        background.image: url ("s-l500.jpg");
-	background.size: contain;
+	margin-bottom: 1em;
+        background-color: #afeeee;
+        background-image: url ("s-l500.jpg");
+	background-size: contain;
 	background: no-repeat;
-	background.position: right center;}
+	background-position: right center;}
 
 .article {
 	height: 10em;
