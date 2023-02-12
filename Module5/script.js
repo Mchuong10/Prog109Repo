@@ -8,7 +8,7 @@ let table;
 
 do {
     table = prompt("Provide a value from 0 to 10");
-} while (Number(table) === NaN || table < 0 || table > 10)       
+} while (Number(table) === NaN || table < 0 || table > 10)    // setting the table unit   
 
     
     // Do multiplication
