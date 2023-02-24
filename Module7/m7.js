@@ -1,7 +1,7 @@
 /* JavaScript & jQuery - Chapter 3: Functions, Methods & Programming */
 /* The book used a font called Eau Sans - the download examples use Open Sans */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
 body {
     background-color: #fff;
