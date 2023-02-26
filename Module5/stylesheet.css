@@ -4,7 +4,7 @@ body {
     background-color: #523620;
     color: #fff;
     font-family: 'Wellfleet', times, serif;
-    font-size: 120%;
+    font-size: 130%;
     margin: 0px 0px 0px 0px;
 }
 
@@ -57,7 +57,7 @@ h1 {
     border-radius: 20px;
     padding: 40px 20px;
     margin: 0px auto;
-    height: 450px;
+    height: 400px;
     width: 600px;
     text-align: center;
 }
