@@ -42,7 +42,6 @@ h1 {
 }
 
 #answer {
-    background-size: contain;
     border: 12px double #fff;
     color: #523620;
     text-align: left;
@@ -58,7 +57,7 @@ h1 {
     border-radius: 20px;
     padding: 40px 20px;
     margin: 0px auto;
-    height: 370px;
+    height: 600px;
     width: 600px;
     text-align: center;
 }
