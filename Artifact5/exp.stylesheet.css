@@ -1,3 +1,33 @@
 body {
     text-align: center;
 }
+ #slideshow {
+      /* Height of box should roughly match image heights */
+      width: 450px;
+      height: 338px;
+      text-align: center;
+      margin: 1em auto;
+    }
+      /* Size each image to fit container height */
+      #slideshow img {
+        width: 450px;
+        height: 338px;
+        border-radius: 5px;
+      }
+    /* Style to fadein */
+    .fadein {
+      opacity: 1;
+      transition: all ease-in 0.25s;
+            -webkit-transition: all ease-in 0.25s;
+    }
+    /* Style to fadeout */
+    .fadeout {
+      opacity: 0;
+      transition: all ease-out 0.25s;
+            -webkit-transition: all ease-out 0.25s;
+    }
+
+    #caption {
+      margin-top: 0;
+      font: 12px Tahoma, Verdana, Sans-serif;
+    }
