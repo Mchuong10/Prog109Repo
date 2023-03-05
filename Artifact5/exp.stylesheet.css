@@ -1,0 +1,37 @@
+body {
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+#radio-wrap {
+    border: solid 2px white;
+}
+
+#slide {
+    border-radius: 5px solid black;
+}
+
+.transition {
+    -webkit-animation: transition 0.5s ease-in-out;
+    animation: transition 0.5s ease-in-out;
+}
+
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
