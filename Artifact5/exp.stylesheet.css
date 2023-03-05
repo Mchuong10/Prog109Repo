@@ -1,30 +1,3 @@
-#slideshow {
-      width: 450px;
-      height: 338px;
-      text-align: center;
-      margin: 1em auto;
-    }
-
-      #slideshow img {
-        width: 450px;
-        height: 338px;
-        border-radius: 5px;
-      }
-  
-    .fadein {
-      opacity: 1;
-      transition: all ease-in 0.25s;
-            -webkit-transition: all ease-in 0.25s;
-    }
- 
-    .fadeout {
-      opacity: 0;
-      transition: all ease-out 0.25s;
-            -webkit-transition: all ease-out 0.25s;
-    }
-
-    #caption {
-      margin-top: 0;
-      font: 12px Tahoma, Verdana, Sans-serif;
-    }
-
+body {
+    text-align: center;
+}
