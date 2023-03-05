@@ -39,14 +39,11 @@ var subscript = -1
       //Set next image filename appropriate image name in array.
       try {
         var imagefile = images[subscript][0];
-        //This unfortunate try...catch mainly for old IE versions.
-      } catch (e) {
-        subscript = 0
-        var imagefile = images[subscript][0];
       }
+      
       //Set the image tag's src= and classname= attributes.
       var imgtag = document.getElementById('slideimg');
-      imgtag.src = folder + "/" + imagefile;
+      imgtag.src =  imagefile;
       document.getElementById('caption').innerHTML = images[subscript][1];
       imgtag.className = 'fadein';
 
