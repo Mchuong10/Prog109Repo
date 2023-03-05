@@ -2,7 +2,7 @@ var pictime = 5;
 
 //Image filenames and captions
 var images = [
-  ["20220618_124212.jpg", "Dress-Up"],
+  ["20221012_205126.jpg", "Dress-Up"],
   ["20220629_154645.jpg", "Ducks"],
   ["20220813_122309.jpg", "Fun in the Sun"],
   ["20220822_161703.jpg", "Siblings"],
@@ -50,5 +50,4 @@ var images = [
     //Make sure everything is loaded before starting timer.
     window.onload = function () {
       newimg()
-      var stimer = setInterval('nextimg()', pictime * 1000);
-
+      var stimer = setInterval('nextimg()', pictime * 1000);}
