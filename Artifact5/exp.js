@@ -1,7 +1,7 @@
 //Number of seconds for each picture to show.
 var pictime = 5;
 //Image subfolder name (or "" if none)/
-var folder = "https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5";
+var folder = "";
 
 //Image filenames and captions (code syntax must be a shown).
 var images = [
