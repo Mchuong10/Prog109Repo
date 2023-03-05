@@ -1,7 +1,5 @@
 //Number of seconds for each picture to show.
 var pictime = 5;
-//Image subfolder name (or "" if none)/
-var folder = "";
 
 //Image filenames and captions
 var images = [
