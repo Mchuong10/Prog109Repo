@@ -24,6 +24,21 @@ var subscript = -1
       }
     }
 
+function next(){
+ if (images.length == index+1)
+ index=0;
+ else
+ index++;
+ updateImage();
+} 
+ 
+
+function back(){
+ if (index===0)
+ index=images.length-1;
+ else
+ index--;
+
     //Fade out the current image, then pause.
     function nextimg() {
       var imgtag = document.getElementById('slideimg');
