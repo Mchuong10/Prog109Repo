@@ -28,7 +28,10 @@ function nextimg() {
 function newimg() {
   //Calculate next image subscript number.
   subscript = subscript >= images.length - 1 ? 0 : subscript + 1;
-   
+    //Set next image filename appropriate image name in array.
+  try {
+    var image = images[subscript][0];
+  }
   //Set the image tag's src= and classname= attributes.
   var imgtag = document.getElementById("slideimg");
   imgtag.src = imagefile;
