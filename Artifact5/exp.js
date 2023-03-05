@@ -51,11 +51,14 @@ function back(){
       //Set next image filename appropriate image name in array.
       try {
         var imagefile = images[subscript][0];
+       } catch (e) {
+        subscript = 0
+        var imagefile = images[subscript][0];
       }
       
       //Set the image tag's src= and classname= attributes.
       var imgtag = document.getElementById('slideimg');
-      imgtag.src = imagefile;
+      imgtag.src = + imagefile;
       document.getElementById('caption').innerHTML = images[subscript][1];
       imgtag.className = 'fadein';
 
