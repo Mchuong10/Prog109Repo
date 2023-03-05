@@ -15,15 +15,6 @@ var images = [
 
 //Initialize subscript variable
 var subscript = -1;
-//Preload images
-var temp = new Image();
-for (i in images) {
-  try {
-    temp.src = images[i][0];
-  } catch (e) {
-    //Do nothing (for bad IE .length)
-  }
-}
 
 //Fade out the current image, then pause.
 function nextimg() {
@@ -39,11 +30,7 @@ function newimg() {
   subscript = subscript >= images.length - 1 ? 0 : subscript + 1;
   //Set next image filename appropriate image name in array.
   try {
-    var imagefile = images[subscript][0];
-    //This unfortunate try...catch mainly for old IE versions.
-  } catch (e) {
-    subscript = 0;
-    var imagefile = images[subscript][0];
+    var image = images[subscript][0];
   }
   //Set the image tag's src= and classname= attributes.
   var imgtag = document.getElementById("slideimg");
