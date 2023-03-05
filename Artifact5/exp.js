@@ -3,12 +3,12 @@ var pictime = 5;
 
 //Image filenames and captions
 var images = [
-  ["20221012_205126.jpg", "Sunset at Padma River, Bangladesh"],
-  ["20220629_154645.jpg", "Rub al-Khali desert in Saudi Arabia"],
-  ["20220813_122309.jpg", "Pacific Landscape at Castle in the Forbidden City, Vietnam"],
-  [ "20220822_161703.jpg", "Overlook of valley and road leading to Deu, Honduras"],
-  ["20221012_181844_03.jpg","Meadow near Grindelwald in the Bernese Alps, Switzerland" ],
-  ["20221012_205126.jpg", "Indigenous coastal vegetation of Mauritius"],
+  ["20220618_124212.jpg", "Dress-Up"],
+  ["20220629_154645.jpg", "Ducks"],
+  ["20220813_122309.jpg", "Fun in the Sun"],
+  [ "20220822_161703.jpg", "Siblings"],
+  ["20221012_181844_03.jpg","Fun at the Park" ],
+  ["20221012_205126.jpg", "Chloe"],
 ];
 
 // You don't really need to change anything below here unless you want to changing styling or something.
