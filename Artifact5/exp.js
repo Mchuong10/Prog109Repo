@@ -47,7 +47,7 @@ function newimg() {
   }
   //Set the image tag's src= and classname= attributes.
   var imgtag = document.getElementById("slideimg");
-  imgtag.src = folder + "/" + imagefile;
+  imgtag.src = imagefile;
   document.getElementById("caption").innerHTML = images[subscript][1];
   imgtag.className = "fadein";
 }
