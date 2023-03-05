@@ -60,9 +60,9 @@ function back(){
       imgtag.className = 'fadein';
 
 var nextButton = document.getElementById("next"); 
-var prevButton = document.getElementById("prev"); 
+var previousButton = document.getElementById("previous"); 
 
-prevButton.addEventListener("click",back,false);
+previousButton.addEventListener("click",back,false);
 nextButton.addEventListener("click",next,false); 
 
 //Make sure everything is loaded before starting timer.
