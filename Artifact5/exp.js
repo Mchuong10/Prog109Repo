@@ -2,7 +2,6 @@
  
 //Replace with: relative pathes to your images, alt text, caption
 imgArray = [
-[
   ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220618_124212.jpg", "Dress-Up"],
   ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220629_154645.jpg", "Ducks"],
   ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220813_122309.jpg", "Fun in the Sun"],
@@ -19,19 +18,24 @@ document.getElementById('slide').alt=imgArray[slide_num][1];
 }
 
 //next button
-function slideshowUp() {
-  num++;
-  num = num % imgArray.length;
-  slideshow(num);
-}
+ function next(){
+ if (imgArray.length == index+1)
+ index=0;
+ else
+ index++;
+ updateImage();
+} 
 
 //previous button
-function slideshowBack() {
-  num--;
-  if (num < 0) {num=imgArray.length-1;}
-  num = num % imgArray.length;
-  slideshow(num);
-}
+function back(){
+ if (index===0)
+ index=imgArray.length-1;
+ else
+ index--;
+ 
+ updateImage();
+} 
+
 
 //autoplay
 function playImageArray(){
