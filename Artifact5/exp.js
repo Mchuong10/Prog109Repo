@@ -5,23 +5,16 @@ var folder = "";
 
 //Image filenames and captions (code syntax must be a shown).
 var images = [
-  [
-    "20221012_205126.jpg",
-    "Sunset at Padma River, Bangladesh",
-  ],
+  ["20221012_205126.jpg",
+    "Sunset at Padma River, Bangladesh"],
   ["20220629_154645.jpg", "Rub al-Khali desert in Saudi Arabia"],
-  [
-    "20220813_122309.jpg",
-    "Pacific Landscape at Castle in the Forbidden City, Vietnam",
+  [ "20220813_122309.jpg",
+    "Pacific Landscape at Castle in the Forbidden City, Vietnam"
   ],
-  [
-    "20220822_161703.jpg",
-    "Overlook of valley and road leading to Deu, Honduras",
-  ],
-  [
-    "20221012_181844_03.jpg",
-    "Meadow near Grindelwald in the Bernese Alps, Switzerland",
-  ],
+  [ "20220822_161703.jpg",
+    "Overlook of valley and road leading to Deu, Honduras"],
+  ["20221012_181844_03.jpg",
+    "Meadow near Grindelwald in the Bernese Alps, Switzerland" ],
   ["20221012_205126.jpg", "Indigenous coastal vegetation of Mauritius"],
 ];
 
