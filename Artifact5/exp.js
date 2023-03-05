@@ -19,10 +19,7 @@ var subscript = -1
     for (i in images) {
       try {
         temp.src = images[i][0]
-      } catch (e) {
-        //Do nothing (for bad IE .length)
-      }
-    }
+      } 
 
 function next(){
  if (images.length == index+1)
@@ -58,7 +55,7 @@ function back(){
       
       //Set the image tag's src= and classname= attributes.
       var imgtag = document.getElementById('slideimg');
-      imgtag.src =  imagefile;
+      imgtag.src = imagefile;
       document.getElementById('caption').innerHTML = images[subscript][1];
       imgtag.className = 'fadein';
 
