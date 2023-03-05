@@ -1,7 +1,7 @@
  var num = 0;
  
 //Replace with: relative pathes to your images, alt text, caption
-imgArray = [
+var myImages = [
   ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220618_124212.jpg", "Dress-Up"],
   ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220629_154645.jpg", "Ducks"],
   ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220813_122309.jpg", "Fun in the Sun"],
@@ -11,37 +11,45 @@ imgArray = [
 ];
 
  
- //Replace with your IDs of image and caption
-function slideshow(slide_num) {
-document.getElementById('slide').src=imgArray[slide_num][0];
-document.getElementById('slide').alt=imgArray[slide_num][1];
-}
+ var captionImages =["Laugh","Love","Lunch","Happiness","Family"];
 
-//next button
- function next(){
- if (imgArray.length == index+1)
+ var index=0; 
+
+ function updateImage(){
+ document.getElementById("slideshow").src = myImages[index];
+ document.getElementById("slideshow").alt= captionImages[index];
+ document.getElementById("caption").textContent = captionImages[index]; 
+} 
+
+function next(){
+ if (myImages.length == index+1)
  index=0;
  else
  index++;
  updateImage();
 } 
+ 
 
-//previous button
 function back(){
  if (index===0)
- index=imgArray.length-1;
+ index=myImages.length-1;
  else
  index--;
  
  updateImage();
 } 
 
+var nextButton = document.getElementById("next"); 
+var previousButton = document.getElementById("previous"); 
+
+previousButton.addEventListener("click",back,false);
+nextButton.addEventListener("click",next,false); 
 
 //autoplay
-function playImageArray(){
-	if (num==imgArray.length){
+function playmyImages(){
+	if (num==myImages.length){
 		num=0;
 		}
-	document.getElementById('slide').src=imgArray[num][0];
+	document.getElementById('slide').src=myImages[num][0];
 	num=num+1;
 	}
