@@ -6,7 +6,7 @@ var folder = "https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5";
 //Image filenames and captions (code syntax must be a shown).
 var images = [
   [
-    "https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20221012_205126.jpg",
+    "20221012_205126.jpg",
     "Sunset at Padma River, Bangladesh",
   ],
   ["20220629_154645.jpg", "Rub al-Khali desert in Saudi Arabia"],
