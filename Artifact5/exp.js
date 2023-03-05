@@ -1,6 +1,4 @@
 var pictime = 5;
-
-//Image filenames and captions
 var images = [
   ["20221012_205126.jpg", "Dress-Up"],
   ["20220629_154645.jpg", "Ducks"],
@@ -9,8 +7,7 @@ var images = [
   ["20221012_181844_03.jpg","Fun at the Park" ],
   ["20221012_205126.jpg", "Chloe"],
 ];
-
-    var subscript = -1
+  var subscript = -1
     //Preload images
     var temp = new Image()
     for (i in images) {
@@ -43,11 +40,13 @@ var images = [
       }
       //Set the image tag's src= and classname= attributes.
       var imgtag = document.getElementById('slideimg');
-      imgtag.src = + imagefile;
+      imgtag.src = "/" + imagefile;
       document.getElementById('caption').innerHTML = images[subscript][1];
       imgtag.className = 'fadein';
     }
     //Make sure everything is loaded before starting timer.
     window.onload = function () {
       newimg()
-      var stimer = setInterval('nextimg()', pictime * 1000);}
+      var stimer = setInterval('nextimg()', pictime * 1000);
+
+    }
