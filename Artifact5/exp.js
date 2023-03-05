@@ -1,11 +1,11 @@
 var pictime = 5;
 var images = [
-  ["20221012_205126.jpg", "Dress-Up"],
-  ["20220629_154645.jpg", "Ducks"],
-  ["20220813_122309.jpg", "Fun in the Sun"],
-  ["20220822_161703.jpg", "Siblings"],
-  ["20221012_181844_03.jpg","Fun at the Park" ],
-  ["20221012_205126.jpg", "Chloe"],
+  ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220618_124212.jpg", "Dress-Up"],
+  ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220629_154645.jpg", "Ducks"],
+  ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220813_122309.jpg", "Fun in the Sun"],
+  ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220822_161703.jpg", "Siblings"],
+  ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20221012_181844_03.jpg","Fun at the Park" ],
+  ["https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20221012_205126.jpg", "Chloe"],
 ];
   var subscript = -1
     //Preload images
