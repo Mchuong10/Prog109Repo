@@ -1,6 +1,6 @@
  var num = 0;
  
-//Replace with: relative pathes to your images, alt text, caption
+//Images
 var myImages = [
   "https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220618_124212.jpg?raw=true",
   "https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20220629_154645.jpg?raw=true",
@@ -10,7 +10,7 @@ var myImages = [
   "https://github.com/Mchuong10/Prog109Repo/blob/main/Artifact5/20221012_205126.jpg?raw=true", 
 ];
 
- 
+ // captions
 var captionImages = [
   "Dress-Up",
   "Ducks",
@@ -21,6 +21,7 @@ var captionImages = [
 ];
 
 var index = 0;
+//fuctions
 
 function updateImage() {
   document.getElementById("slideshow").src = myImages[index];
@@ -40,18 +41,17 @@ function back() {
 
   updateImage();
 }
-
+//buttons 
 var nextButton = document.getElementById("next");
 var previousButton = document.getElementById("previous");
 
 previousButton.addEventListener("click", back, false);
 nextButton.addEventListener("click", next, false);
 
+
 //autoplay
-function playmyImages() {
-  if (num == myImages.length) {
-    num = 0;
-  }
-  document.getElementById("slide").src = myImages[num][0];
-  num = num + 1;
+function autoSlide() {
+  if (document.getElementById("auto").checked)  next(); 
 }
+setInterval(autoSlide,2000); // Next
+
